@@ -1,0 +1,158 @@
+[
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4561",
+    "title": "Classic Beef Burger",
+    "imageUrl": "https://example.com/classic-beef.jpg",
+    "ingredients": ["beef patty", "lettuce", "tomato", "cheddar", "ketchup"],
+    "allergens": ["lactose"],
+    "prices": {
+      "single": 5.99,
+      "double": 7.99,
+      "combo": 9.99
+    },
+    "spiceLevel": 0
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4562",
+    "title": "Cheeseburger Deluxe",
+    "imageUrl": "https://example.com/cheeseburger-deluxe.jpg",
+    "ingredients": ["beef patty", "cheddar", "pickles", "onions", "mustard"],
+    "allergens": ["lactose"],
+    "prices": {
+      "single": 6.49,
+      "double": 8.49,
+      "combo": 10.49
+    },
+    "spiceLevel": 0
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4563",
+    "title": "Spicy Chicken Burger",
+    "imageUrl": "https://example.com/spicy-chicken.jpg",
+    "ingredients": ["fried chicken", "lettuce", "spicy mayo", "jalapeños"],
+    "allergens": ["meat"],
+    "prices": {
+      "single": 6.99,
+      "double": 8.99,
+      "combo": 11.49
+    },
+    "spiceLevel": 2
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4564",
+    "title": "Vegan Burger",
+    "imageUrl": "https://example.com/vegan-burger.jpg",
+    "ingredients": ["vegan patty", "lettuce", "tomato", "vegan mayo"],
+    "allergens": ["vegan"],
+    "prices": {
+      "single": 7.49,
+      "double": 9.49,
+      "combo": 11.99
+    },
+    "spiceLevel": 0
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4565",
+    "title": "BBQ Bacon Burger",
+    "imageUrl": "https://example.com/bbq-bacon.jpg",
+    "ingredients": ["beef patty", "bacon", "BBQ sauce", "cheddar"],
+    "allergens": ["meat", "lactose"],
+    "prices": {
+      "single": 7.99,
+      "double": 9.99,
+      "combo": 12.49
+    },
+    "spiceLevel": 1
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4566",
+    "title": "Mushroom Swiss Burger",
+    "imageUrl": "https://example.com/mushroom-swiss.jpg",
+    "ingredients": ["beef patty", "swiss cheese", "sautéed mushrooms", "onions"],
+    "allergens": ["lactose"],
+    "prices": {
+      "single": 8.49,
+      "double": 10.49,
+      "combo": 13.49
+    },
+    "spiceLevel": 0
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4567",
+    "title": "Double Trouble Burger",
+    "imageUrl": "https://example.com/double-trouble.jpg",
+    "ingredients": ["two beef patties", "cheddar", "bacon", "onion rings"],
+    "allergens": ["meat", "lactose"],
+    "prices": {
+      "single": 9.49,
+      "double": 11.49,
+      "combo": 14.99
+    },
+    "spiceLevel": 1
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4568",
+    "title": "Truffle Burger",
+    "imageUrl": "https://example.com/truffle-burger.jpg",
+    "ingredients": ["beef patty", "truffle mayo", "arugula", "parmesan"],
+    "allergens": ["lactose"],
+    "prices": {
+      "single": 10.49,
+      "double": 12.49,
+      "combo": 15.99
+    },
+    "spiceLevel": 0
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4569",
+    "title": "Fish Fillet Burger",
+    "imageUrl": "https://example.com/fish-fillet.jpg",
+    "ingredients": ["crispy fish fillet", "tartar sauce", "lettuce", "cheddar"],
+    "allergens": ["seafood", "lactose"],
+    "prices": {
+      "single": 7.99,
+      "double": 9.99,
+      "combo": 12.99
+    },
+    "spiceLevel": 0
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4570",
+    "title": "Chili Inferno Burger",
+    "imageUrl": "https://example.com/chili-inferno.jpg",
+    "ingredients": ["beef patty", "spicy chili", "pepper jack cheese", "jalapeños"],
+    "allergens": ["lactose"],
+    "prices": {
+      "single": 8.99,
+      "double": 10.99,
+      "combo": 13.99
+    },
+    "spiceLevel": 3
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4571",
+    "title": "Hawaiian Burger",
+    "imageUrl": "https://example.com/hawaiian-burger.jpg",
+    "ingredients": ["beef patty", "pineapple", "BBQ sauce", "swiss cheese"],
+    "allergens": ["lactose"],
+    "prices": {
+      "single": 8.49,
+      "double": 10.49,
+      "combo": 13.49
+    },
+    "spiceLevel": 0
+  },
+  {
+    "_id": "63a6a1f6d7b8d1a77d8b4572",
+    "title": "Avocado Delight Burger",
+    "imageUrl": "https://example.com/avocado-delight.jpg",
+    "ingredients": ["beef patty", "avocado", "lettuce", "tomato", "ranch sauce"],
+    "allergens": ["lactose"],
+    "prices": {
+      "single": 8.99,
+      "double": 10.99,
+      "combo": 13.99
+    },
+    "spiceLevel": 0
+  }
+]

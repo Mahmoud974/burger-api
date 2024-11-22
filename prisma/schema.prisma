@@ -1,0 +1,133 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  email       String
+  phoneNumber String
+  gender      String
+}
+
+model Burger {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  imageUrl    String
+  ingredients String[] // Tableau de chaînes
+  allergens   String[] // Tableau de chaînes
+  prices      Json
+  pricesId    String?  @db.ObjectId
+  spiceLevel  Int
+}
+
+model BurgerPrices {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  single Float
+  double Float
+  combo  Float
+}
+
+model Dessert {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  imageUrl    String
+  ingredients String[] // Tableau de chaînes
+  allergens   String[] // Tableau de chaînes
+  prices      Json
+  pricesId    String   @db.ObjectId
+}
+
+model DessertPrices {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  small  Float
+  medium Float
+  large  Float
+}
+
+model Drink {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  imageUrl    String
+  ingredients String[] // Tableau de chaînes
+  allergens   String[] // Tableau de chaînes
+  prices      String[]
+  pricesId    String   @db.ObjectId
+}
+
+model DrinkPrices {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  small Float
+  grand Float
+}
+
+model KidMenu {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  title    String
+  imageUrl String
+  items    String[] // Tableau d'éléments inclus
+  prices   String[]
+  pricesId String   @db.ObjectId
+}
+
+model KidMenuPrices {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  single Float
+  combo  Float
+}
+
+model Pizza {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  imageUrl    String
+  ingredients String[] // Tableau de chaînes
+  allergens   String[] // Tableau de chaînes
+  prices      String[]
+  pricesId    String   @db.ObjectId
+}
+
+model PizzaPrices {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  small  Float
+  medium Float
+  large  Float
+}
+
+model Salad {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  imageUrl    String
+  ingredients String[] // Tableau de chaînes
+  allergens   String[] // Tableau de chaînes
+  prices      String[]
+  pricesId    String   @db.ObjectId
+}
+
+model SaladPrices {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  small  Float
+  medium Float
+  large  Float
+}
+
+model Tacos {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  imageUrl    String
+  ingredients String[] // Tableau de chaînes
+  allergens   String[] // Tableau de chaînes
+  prices      String[]
+  pricesId    String   @db.ObjectId
+}
+
+model TacoPrices {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  single Float
+  double Float
+  combo  Float
+}
